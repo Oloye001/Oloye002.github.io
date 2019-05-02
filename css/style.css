@@ -1,0 +1,97 @@
+html, body{
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topnav{
+    background-color: rgb(255,00,00);
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    /* text-align: center; */
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    /* margin-bottom: 10px; */
+}
+body{
+    word-wrap: 10px;
+    word-spacing: 5px;
+}
+.topnav a:hover{
+    background-color: #f7b906;
+    color: blue;
+}
+.topnav a.active{
+    background-color: #f2f2f2;
+    color: #888888;
+}
+div.hero-image {
+    background-image: url(../img/thN9IKUVQ9.jpg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+div.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: red;
+}
+div.hero-text a button{
+    color: darkslateblue;
+    border-color: darkblue;
+    background-color: beige;
+    padding: 10px;
+}
+div.hero-text h1{
+    font-size: 3em;
+}
+.description {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.description h2{
+    text-transform: uppercase;
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.column {
+    float: left; 
+    /* width: 33.33%; */
+}
+.column img{
+    width: 100%;
+    height: auto;
+}
+.row{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    background: rgb(228, 7, 7);
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+footer{
+    color: #f7b906;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
